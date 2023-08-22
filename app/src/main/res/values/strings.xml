@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SCANF</string>
+    <string name="auth">Authentification</string>
+    <string name="conn">Se Connecter</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

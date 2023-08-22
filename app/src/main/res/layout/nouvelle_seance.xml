@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad"
+    tools:context=".NouvelleSeance">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:onClick="back"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_back" />
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginEnd="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25sp"
+            android:fontFamily="serif"
+            android:layout_gravity="center"
+            android:text="Nouvelle Séance"
+            android:textColor="@color/black"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinnerClasse"
+            android:layout_width="160dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_marginTop="45dp"/>
+
+        <TextView
+            android:id="@+id/DateSeance"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:ems="12"
+            android:inputType="date"
+            android:layout_marginTop="35dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="23dp"
+            android:onClick="popupDate"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/TimeSeance"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:ems="12"
+            android:inputType="time"
+            android:layout_marginTop="35dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="23dp"
+            android:onClick="popupTime"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/MatiereSeance"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:ems="12"
+            android:hint="Matiere"
+            android:inputType="text"
+            android:layout_marginTop="35dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="23dp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/btnEnregistrer"
+            android:layout_width="240dp"
+            android:layout_height="70dp"
+            android:text="Enregistre"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            app:cornerRadius="25dp"
+            android:backgroundTint="#DAA520"
+            android:textColor="@color/blue_royal"/>
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

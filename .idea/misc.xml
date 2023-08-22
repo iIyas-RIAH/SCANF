@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MyApplication/app/src/main/res/drawable/bg_item.xml" value="0.14635416666666667" />
+        <entry key="..\:/MyApplication/app/src/main/res/drawable/bg_next.xml" value="0.14635416666666667" />
+        <entry key="..\:/MyApplication/app/src/main/res/drawable/button_corner.xml" value="0.14635416666666667" />
+        <entry key="..\:/MyApplication/app/src/main/res/drawable/circle.xml" value="0.2703125" />
+        <entry key="..\:/MyApplication/app/src/main/res/drawable/circle_border.xml" value="0.2703125" />
+        <entry key="..\:/MyApplication/app/src/main/res/drawable/grad.xml" value="0.2703125" />
+        <entry key="..\:/MyApplication/app/src/main/res/drawable/ic_edit.xml" value="0.14635416666666667" />
+        <entry key="..\:/MyApplication/app/src/main/res/drawable/ic_next.xml" value="0.2703125" />
+        <entry key="..\:/MyApplication/app/src/main/res/drawable/ic_settings.xml" value="0.2703125" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/accueil.xml" value="0.13020833333333334" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/home_page.xml" value="0.3623529411764706" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/item_classes.xml" value="0.16354166666666667" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/item_etudiant.xml" value="0.4" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/item_etudiant_seance.xml" value="0.6" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/item_seance.xml" value="0.4" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/liste_classe.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/liste_classes.xml" value="0.15104166666666666" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/liste_classes2.xml" value="0.25416666666666665" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/liste_etudiant.xml" value="0.176" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/liste_etudiant_seance.xml" value="0.264" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/liste_seances.xml" value="0.2098408104196816" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/menu.xml" value="0.152" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/modification_profile.xml" value="0.264" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/nouvelle_seance.xml" value="0.2" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/region_choix.xml" value="0.13020833333333334" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/sing_in.xml" value="0.264" />
+        <entry key="..\:/MyApplication/app/src/main/res/menu/bottom_menu.xml" value="0.264" />
+        <entry key="..\:/SCANF/app/src/main/res/drawable/bg_item.xml" value="0.1484375" />
+        <entry key="..\:/SCANF/app/src/main/res/layout/accueil.xml" value="0.2115036231884058" />
+        <entry key="..\:/SCANF/app/src/main/res/layout/activity_main.xml" value="0.2115036231884058" />
+        <entry key="..\:/SCANF/app/src/main/res/layout/fragment_jeudi.xml" value="0.2115036231884058" />
+        <entry key="..\:/SCANF/app/src/main/res/layout/fragment_lundi.xml" value="0.2115036231884058" />
+        <entry key="..\:/SCANF/app/src/main/res/layout/fragment_mardi.xml" value="0.2115036231884058" />
+        <entry key="..\:/SCANF/app/src/main/res/layout/fragment_mercredi.xml" value="0.2115036231884058" />
+        <entry key="..\:/SCANF/app/src/main/res/layout/fragment_vendredi.xml" value="0.2115036231884058" />
+        <entry key="..\:/SCANF/app/src/main/res/layout/home_page.xml" value="0.32605905006418484" />
+        <entry key="..\:/SCANF/app/src/main/res/layout/item_classes.xml" value="0.264" />
+        <entry key="..\:/SCANF/app/src/main/res/layout/item_etudiant.xml" value="0.25416666666666665" />
+        <entry key="..\:/SCANF/app/src/main/res/layout/item_etudiant_seance.xml" value="0.25416666666666665" />
+        <entry key="..\:/SCANF/app/src/main/res/layout/item_seance.xml" value="0.2" />
+        <entry key="..\:/SCANF/app/src/main/res/layout/liste_classes.xml" value="0.13229166666666667" />
+        <entry key="..\:/SCANF/app/src/main/res/layout/liste_etudiant.xml" value="0.2" />
+        <entry key="..\:/SCANF/app/src/main/res/layout/liste_etudiant_seance.xml" value="0.2" />
+        <entry key="..\:/SCANF/app/src/main/res/layout/liste_seances.xml" value="0.13229166666666667" />
+        <entry key="..\:/SCANF/app/src/main/res/layout/menu.xml" value="0.17346014492753623" />
+        <entry key="..\:/SCANF/app/src/main/res/layout/modification_profile.xml" value="0.264" />
+        <entry key="..\:/SCANF/app/src/main/res/layout/modifier_seance.xml" value="0.264" />
+        <entry key="..\:/SCANF/app/src/main/res/layout/nouvelle_seance.xml" value="0.264" />
+        <entry key="..\:/SCANF/app/src/main/res/layout/result_abs.xml" value="0.17798913043478262" />
+        <entry key="..\:/SCANF/app/src/main/res/layout/sing_in.xml" value="0.13229166666666667" />
+        <entry key="..\:/SCANF/app/src/main/res/layout/spinner_item.xml" value="0.20697463768115942" />
+        <entry key="..\:/SCANF/app/src/main/res/menu/bottom_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/SCANF/app/src/main/res/menu/seance_edit_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/SCANF/app/src/main/res/xml/network_security_config.xml" value="0.13229166666666667" />
+        <entry key="..\:/SCANF/app/src/main/res/xml/spinner_item.xml" value="0.13229166666666667" />
+        <entry key="..\:/Users/LENOVO/Desktop/MyApplication/app/src/main/res/layout/home_page.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/Desktop/MyApplication/app/src/main/res/layout/menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/Desktop/MyApplication/app/src/main/res/layout/modification_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/Desktop/MyApplication/app/src/main/res/layout/region_choix.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/LENOVO/Desktop/MyApplication/app/src/main/res/menu/bottom_menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ModificationProfile"
+    android:background="@drawable/grad">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:onClick="back"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_back" />
+
+    <TextView
+        android:id="@+id/ModificationDuProfil"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60sp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Modification du Profil"
+        android:textColor="@color/black"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="675dp"
+            android:layout_below="@+id/ModificationDuProfil"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4sp"
+                    android:id="@+id/nomComplet"
+                    android:hint="Nom Complet"
+                    android:layout_gravity="center"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    app:boxStrokeColor="#DAA520">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4sp"
+                    android:id="@+id/email"
+                    android:hint="E-mail"
+                    android:layout_gravity="center"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    app:boxStrokeColor="#DAA520">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mobile"
+                    android:layout_marginTop="4sp"
+                    android:hint="Telephone"
+                    android:layout_gravity="center"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    app:boxStrokeColor="#DAA520">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="phone"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/passwd"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4sp"
+                    android:hint="Mot de passe"
+                    android:layout_gravity="center"
+                    app:passwordToggleEnabled="true"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    app:boxStrokeColor="#DAA520">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPassword"
+                        />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/passwd2"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4sp"
+                    android:hint="Mot de passe"
+                    android:layout_gravity="center"
+                    app:passwordToggleEnabled="true"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    app:boxStrokeColor="#DAA520">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPassword"
+                        />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/btnImageProfil"
+                    android:layout_width="240dp"
+                    android:layout_height="73dp"
+                    android:layout_marginTop="4sp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Photo de profil"
+                    android:textAlignment="center"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    app:cornerRadius="25dp"
+                    android:backgroundTint="#DAA520"
+                    android:textColor="@color/blue_royal"/>
+
+                <Button
+                    android:id="@+id/btnModification"
+                    android:layout_width="240dp"
+                    android:layout_height="73dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="4sp"
+                    android:text="Enregistrer"
+                    android:textAlignment="center"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    app:cornerRadius="25dp"
+                    android:backgroundTint="#DAA520"
+                    android:textColor="@color/blue_royal"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Singin"
+    android:orientation="vertical"
+    android:paddingVertical="55dp"
+    android:paddingHorizontal="25dp"
+    android:background="@color/grey">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="top|center_horizontal"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:baselineAligned="false"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/auth"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="32sp"
+        android:textColor="@color/black"
+        android:layout_gravity="top|center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/mail"
+            android:hint="e-mail"
+            android:layout_gravity="center"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:boxStrokeColor="#DAA520">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/passwd"
+            android:hint="Mot de passe"
+            android:layout_gravity="center"
+            app:passwordToggleEnabled="true"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:boxStrokeColor="#DAA520">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnConnecter"
+        android:layout_width="240dp"
+        android:layout_height="55dp"
+        android:fontFamily="serif"
+        android:text="@string/conn"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24sp"
+        android:layout_gravity="bottom|center_horizontal"
+        app:cornerRadius="25dp"
+        android:background="#FFDF00"
+        />
+</LinearLayout>
